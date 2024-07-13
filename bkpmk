@@ -1,0 +1,5 @@
+#!/bin/bash
+
+readonly DIR="$( dirname $0 )" ;
+
+bash $DIR/src/main.sh $@ ;
