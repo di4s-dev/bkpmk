@@ -7,8 +7,8 @@ create table devices (
 
 create table version (
     id integer primary key autoincrement,
-    version varchar(10) not null
+    val varchar(10) not null
 );
 
-insert into version(version) values ('0.0.1');
+insert into version(val) values ('0.0.1');
 
