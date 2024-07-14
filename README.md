@@ -1,7 +1,10 @@
+> [!CAUTION]
+> ESSE PROJETO É FORNECIDO "COMO ESTÁ", E NENHUMA GARANTIA, EXPRESSA OU IMPLÍCITA, É DADA. AVALIE O CÓDIGO E UTILIZE POR SUA CONTA E RISCO. 
+
+
 # bkpmk - Backup Mikrotik
 
 Shell script para fazer backup de roteadores Mikrotik 
-
 
 ### Instalação
 
@@ -79,4 +82,3 @@ bkpmk device list
 bkpmk device remove 192.168.0.1
 
 ```
-
