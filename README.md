@@ -1,10 +1,15 @@
 > [!CAUTION]
 > ESSE PROJETO É FORNECIDO "COMO ESTÁ", E NENHUMA GARANTIA, EXPRESSA OU IMPLÍCITA, É DADA. AVALIE O CÓDIGO E UTILIZE POR SUA CONTA E RISCO. 
 
+# bkpmk - Backup Mikrotik ( routeros v6 )
 
-# bkpmk - Backup Mikrotik
+Shell script para fazer backup de roteadores Mikrotik.
 
-Shell script para fazer backup de roteadores Mikrotik 
+O backup é realizado através de SSH com autenticação por chave.
+
+É recomendado criar um usuário específico para executar o backup no servidor e nos roteadores.
+
+O usuário no roteador precisa ter as seguintes permissões: ssh, ftp, read, write, policy e sensitive
 
 ### Instalação
 
